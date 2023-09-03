@@ -1,0 +1,427 @@
+header .img-header {
+  display: flex;
+}
+header img {
+  width: 205vh;
+  height: 50vh;
+}
+
+nav {
+  margin: 20px;
+}
+
+a {
+  margin: 10px;
+}
+
+.infouno {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  flex-direction: column;
+  flex-basis: 50%;
+  font-weight: bold;
+}
+
+#maincontacto {
+  height: 45%;
+}
+
+.bodycontacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 50px;
+}
+
+.contacto-formulario {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #050b44;
+  border-radius: 30px;
+  margin: 0 25px 15px 25px;
+}
+
+.contacto-label {
+  margin-top: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.contacto-input {
+  border: none;
+  border-radius: 20px;
+  padding: 8px;
+  background-color: white;
+  border-color: white;
+}
+
+.contacto-mensaje {
+  border: none;
+  border-radius: 20px;
+  padding: 8px;
+  height: 150px;
+  background-color: white;
+  border-color: white;
+}
+
+.contacto-enviar {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  width: 80px;
+  padding: 8px;
+  transition: background-color 0.5s;
+}
+
+.titulopromoclientes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  font-size: 4rem;
+}
+
+.tarjetasplanes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  gap: 2rem;
+}
+.tarjetasplanes div {
+  font-weight: bold;
+  color: black;
+}
+.tarjetasplanes h5 {
+  font-size: 30px;
+  color: rgb(36, 36, 107);
+}
+
+#promo1 {
+  width: 150px;
+  color: white;
+  background-color: rgb(6, 0, 77);
+  margin: 50px;
+  padding: 20px;
+  border: 1px solid black;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#promo2 {
+  width: 150px;
+  color: white;
+  background-color: rgb(6, 0, 77);
+  margin: 50px;
+  padding: 20px;
+  border: 1px solid black;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#promo3 {
+  width: 150px;
+  color: white;
+  background-color: rgb(6, 0, 77);
+  margin: 50px;
+  padding: 20px;
+  border: 1px solid black;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#promo4 {
+  width: 150px;
+  color: white;
+  background-color: rgb(6, 0, 77);
+  margin: 50px;
+  padding: 20px;
+  border: 1px solid black;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxmain {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: right;
+  align-items: center;
+  border-top: 3px solid black;
+}
+footer ul li a {
+  font-size: 1rem;
+  color: blue;
+}
+
+#caja {
+  display: flex;
+  right: 0%;
+  top: 400px;
+}
+
+#cajados img {
+  width: 100px;
+  height: 100px;
+}
+
+#cajacuatro img {
+  width: 100px;
+  height: 100px;
+  margin-left: 12px;
+  margin-top: 20px;
+}
+
+.terminosycondiciones {
+  margin-top: 40px;
+}
+
+@media (max-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  header img {
+    width: 197vh;
+  }
+  nav {
+    margin: 10px;
+  }
+  a {
+    margin: 5px;
+  }
+  .infouno {
+    display: flex;
+  }
+}
+@media (max-width: 768px) {
+  header img {
+    width: 147vh;
+  }
+  #promo1 {
+    margin: 23px;
+    gap: 1rem;
+  }
+  #promo2 {
+    margin: 23px;
+    gap: 1rem;
+  }
+  #promo3 {
+    margin: 23px;
+    gap: 1rem;
+  }
+  #promo4 {
+    margin: 23px;
+    gap: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  header img {
+    width: 115vh;
+  }
+  .tarjetasplanes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 1rem;
+  }
+  .tarjetasplanes h5 {
+    font-size: 20px;
+  }
+  .tarjetasplanes a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #promo1 {
+    margin: 2px;
+    gap: 1rem;
+  }
+  .titulopromoclientes {
+    font-size: 40px;
+  }
+  #promo2 {
+    margin: 2px;
+    gap: 1rem;
+  }
+  .titulopromoclientes {
+    font-size: 40px;
+  }
+  #promo3 {
+    margin: 2px;
+    gap: 1rem;
+  }
+  .titulopromoclientes {
+    font-size: 40px;
+  }
+  #promo4 {
+    margin: 2px;
+    gap: 1rem;
+  }
+  .titulopromoclientes {
+    font-size: 40px;
+  }
+}
+@media (max-width: 480px) {
+  header img {
+    width: 90vh;
+    height: 35vh;
+  }
+  .tarjetasplanes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    gap: 1rem;
+  }
+  .tarjetasplanes h5 {
+    font-size: 15px;
+  }
+  .tarjetasplanes a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+  #promo1 {
+    margin: 2px;
+    gap: 1rem;
+  }
+  .boxmain {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  #promo2 {
+    margin: 2px;
+    gap: 1rem;
+  }
+  .boxmain {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  #promo3 {
+    margin: 2px;
+    gap: 1rem;
+  }
+  .boxmain {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  #promo4 {
+    margin: 2px;
+    gap: 1rem;
+  }
+  .boxmain {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 320px) {
+  header img {
+    width: 60vh;
+  }
+  .tarjetasplanes {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-area: auto;
+  }
+  .tarjetasplanes h5 {
+    font-size: 11px;
+  }
+  .tarjetasplanes a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+  #promo1 {
+    margin: 2px;
+    gap: 1rem;
+  }
+  .boxmain {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  #promo2 {
+    margin: 2px;
+    gap: 1rem;
+  }
+  .boxmain {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  #promo3 {
+    margin: 2px;
+    gap: 1rem;
+  }
+  .boxmain {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  #promo4 {
+    margin: 2px;
+    gap: 1rem;
+  }
+  .boxmain {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .titulopromoclientes {
+    font-size: 30px;
+  }
+  #cajados img {
+    width: 60px;
+    height: 60px;
+  }
+  #cajacuatro img {
+    width: 60px;
+    height: 60px;
+    margin-left: 12px;
+    margin-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+@import "./variables";
+
+ 
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: right;
+    align-items: center;
+    border-top: 3px solid black;
+
+ul li a{
+        font-size: 1rem;
+        color: blue;
+    }
+    }
+
+
+    #caja{
+        display: flex;
+        right: 0%;
+        top: 400px;
+    }
+    
+    #cajados img{
+        width: 100px;
+        height: 100px;
+    }
+
+    #cajacuatro img{
+        width: 100px;
+        height: 100px;
+        margin-left: 12px;
+        margin-top: 20px;
+    }
+
+    .terminosycondiciones{
+        margin-top: 40px;
+    }

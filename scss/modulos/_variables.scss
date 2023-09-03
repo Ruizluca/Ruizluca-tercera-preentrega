@@ -1,0 +1,34 @@
+//header //
+
+$logo-header-l: 205vh;
+
+$logo-header-a: 50vh;
+
+$nav-header: 20px;
+
+$nav-header-a: 10px;
+
+//main//
+
+$paleta_colores: (
+    "celeste": #6c7bff,
+    "blanco": white,
+    "negro": black,
+    "azul": rgb(36, 36, 107),
+    "azul-oscuro": rgb(6, 0, 77)
+
+)
+;
+
+@mixin flex ($justify, $align,){
+    display: flex;
+    justify-content: center;
+    text-align: center ;
+};
+
+@mixin flexbox ($justify, $align,){
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+};
+

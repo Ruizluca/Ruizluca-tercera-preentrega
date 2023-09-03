@@ -1,0 +1,110 @@
+
+//main index //
+
+.infouno{
+    @include flex ( center,center);
+    justify-items: center;
+    flex-direction: column;
+    flex-basis: 50%;
+    font-weight: bold;}
+
+// main contacto //
+
+#maincontacto{
+    height: 45%;
+
+}
+.bodycontacto{
+    @include flexbox(center,center);
+    padding: 10px;
+    font-size: 50px;
+}
+
+.contacto-formulario {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: map-get($paleta_colores, "celeste" );
+    border-radius: 30px;
+    margin: 0 25px 15px 25px;
+  }
+  .contacto-label {
+    margin-top: 15px;
+    color: map-get($paleta_colores, "blanco");
+    font-weight: bold;
+  }
+  .contacto-input {
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: map-get($paleta_colores, "blanco" );
+    border-color: map-get($paleta_colores, "blanco" );
+  }
+  .contacto-mensaje {
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    height: 150px;
+    background-color: map-get($paleta_colores, "blanco" );
+    border-color: map-get($paleta_colores, "blanco" );
+  }
+  .contacto-enviar {
+    background-color: map-get($paleta_colores, "negro" );
+    color: map-get($paleta_colores, "blanco" );
+    border: none;
+    border-radius: 15px;
+    width: 80px;
+    padding: 8px;
+    transition: background-color 0.5s;
+  }
+
+  //main planes//
+
+  .titulopromoclientes{
+    display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-evenly;
+font-size: 4rem;
+}
+
+.tarjetasplanes{
+    @include flexbox(center,center);
+    margin: 40px;
+    gap: 2rem;
+    div{
+        font-weight: bold;
+        color:map-get($paleta_colores, "negro" );
+    }
+    h5{
+        font-size: 30px;
+        color: map-get($paleta_colores, "azul" );
+    }
+}
+
+//main  Promo //
+
+@for $i from 1 through 4 {
+
+    #promo#{$i} {
+        width: 150px;
+        color: map-get($paleta_colores, "blanco" );
+        background-color: map-get($paleta_colores, "azul-oscuro" );
+        margin: 50px;
+        padding: 20px;
+        border: 1px solid black;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }   
+}
+
+        .boxmain{
+            display: grid;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            justify-content: center;
+            align-items:center;
+        }
+
+

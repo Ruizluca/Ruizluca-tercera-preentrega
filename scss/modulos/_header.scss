@@ -1,0 +1,21 @@
+ @import "./variables";
+
+
+header {
+.img-header{
+   display: flex;
+}
+ img{
+   width: $logo-header-l;
+   height: $logo-header-a;
+   
+ }
+}
+
+ nav{ 
+    margin: $nav-header;
+ }
+ a{
+    margin: $nav-header-a;
+
+ }
